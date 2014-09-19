@@ -1,4 +1,4 @@
-FROM gayanhewa/lemp
+FROM gayanhewa/lemp:02
 
 RUN chown -R www-data:www-data /usr/share/nginx/www
 
