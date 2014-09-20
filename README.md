@@ -15,8 +15,13 @@ Running this container
 
 Build the image :
 
+~~~
   docker build -t webapp .
+~~~
+
   
 Running the container :
 
+~~~
   docker run -p 80:80 -v /your/source:/usr/share/nginx/www/platform -d webapp
+~~~
